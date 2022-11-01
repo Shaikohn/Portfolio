@@ -16,7 +16,7 @@ const About = () => {
                         <p className=''>Hi 🖐. I'm Shai, nice to meet you. Please take a look around.</p>
                     </div>
                     <div>
-                        <p>I'm a 19-year-old looking for the opportunity to enter the professional world of web development. I started on this path of technology because of the taste I have always had for computers and virtual technologies in general, aspiring to be a competitive Developer in the sector, both in Back-End and Front-End.</p>
+                        <p>I'm a 19-year-old looking for the opportunity to enter the professional world of web development, aspiring to be a competitive Developer in the sector, both in Back-End and Front-End.</p>
                     </div>
                 </div>
             </div>
