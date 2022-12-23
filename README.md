@@ -24,9 +24,9 @@ At the end of Yo Puedo Programar, from Junior Achievement Argentina, we were ask
 - A section with my projects
 - A contact form
 
-<img height="300" src="./assets/readme/Title.png" />
-<img height="300" src="./assets/readme/About.png" />
-<img height="300" src="./assets/readme/Experience.png" />
+<img height="300" src="./srcassets/readme/Title.png" />
+<img height="300" src="./srcassets/readme/About.png" />
+<img height="300" src="./src/assets/readme/Experience.png" />
 <img height="300" src="./src/assets/readme/Projects.png" />
 
 
