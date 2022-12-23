@@ -14,8 +14,8 @@ Mi portafolio personal deployeado y realizado utilizando React y Tailwind CSS.
 
 ## English
 
-At the end of Yo Puedo Programar, from Junior Achievement Argentina, we were asked to make a web page as a team using HTML, CSS and JavaScript.
- Together with my partner, we decided to create an application dedicated to promoting a town in Córdoba, which includes the following features:
+My personal portfolio deployed and made it with React and Tailwind CSS.
+ It includes the following features:
 
 - A title page with a short presentation
 - A NavBar
