@@ -16,7 +16,7 @@ const About = () => {
                         <p className=''>Hi 🖐. I'm Shai, nice to meet you. Please take a look around.</p>
                     </div>
                     <div>
-                        <p>I'm a 19-year-old looking for the opportunity to enter the professional world of web development, aspiring to be a competitive Developer in the sector, both in Back-End and Front-End.</p>
+                        <p>I'm a Full Stack Developer with training as a Web Designer and C2 Advanced English level. Experience programming in NodeJS, React, Redux, SQL, among other technologies in the sector. My skills include responsibility and commitment to meeting objectives, analytical skills, problem solving and teamwork.</p>
                     </div>
                 </div>
             </div>
