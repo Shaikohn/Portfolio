@@ -43,9 +43,9 @@ const Projects = () => {
                                 Ztreamgames
                             </span>
                             <div className='pt-8 text-center'>
-                                {/* <a href='https://feetsies.vercel.app/' target="_blank" rel="noreferrer">
+                                <a href='https://ztreamgames.vercel.app/' target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a> */}
+                                </a>
                                 <a href='https://github.com/Shaikohn/Zteam' target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>

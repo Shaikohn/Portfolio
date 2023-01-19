@@ -11,6 +11,7 @@ import Mongo from '../assets/mongo.png';
 import Redux from '../assets/Redux.png';
 import postgres from '../assets/postgres.png';
 import Bootstrap from '../assets/Bootstrap.png';
+import Express from '../assets/Express.png';
 
 const Skills = () => {
     return (
@@ -56,6 +57,12 @@ const Skills = () => {
                         <a href="https://nodejs.org/es/" target="_blank" rel="noopener noreferrer">
                             <img alt="Node" src={Node} className='w-20 mx-auto' />
                             <p className='my-4'>NODE JS</p>
+                        </a>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
+                            <img alt="Node" src={Express} className='w-20 mx-auto' />
+                            <p className='my-4'>EXPRESS JS</p>
                         </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
