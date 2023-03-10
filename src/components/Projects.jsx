@@ -61,9 +61,9 @@ const Projects = () => {
                                 Cuevanix
                             </span>
                             <div className='pt-8 text-center'>
-                                {/* <a href='https://feetsies.vercel.app/' target="_blank" rel="noreferrer">
+                                <a href='https://cuevanix-shaikohn.vercel.app/' target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a> */}
+                                </a>
                                 <a href='https://github.com/Shaikohn/Cuevanix' target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
