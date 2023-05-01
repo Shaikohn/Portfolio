@@ -24,18 +24,6 @@ const Skills = () => {
                 </div>
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noopener noreferrer">
-                            <img alt="HTML" src={HTML} className='w-20 mx-auto' />
-                            <p className='my-4'>HTML</p>
-                        </a>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
-                            <img alt="CSS" src={CSS} className='w-20 mx-auto' />
-                            <p className='my-4'>CSS</p>
-                        </a>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <a href="https://www.javascript.com/" target="_blank" rel="noopener noreferrer">
                             <img alt="Javascript" src={JavaScript} className='w-20 mx-auto' />
                             <p className='my-4'>JAVASCRIPT</p>
@@ -48,21 +36,9 @@ const Skills = () => {
                         </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <a href="https://redux.js.org/" target="_blank" rel="noopener noreferrer">
-                            <img alt="Redux" src={Redux} className='w-20 mx-auto' />
-                            <p className='my-4'>REDUX</p>
-                        </a>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <a href="https://nodejs.org/es/" target="_blank" rel="noopener noreferrer">
                             <img alt="Node" src={Node} className='w-20 mx-auto' />
                             <p className='my-4'>NODE JS</p>
-                        </a>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
-                            <img alt="Node" src={Express} className='w-20 mx-auto' />
-                            <p className='my-4'>EXPRESS JS</p>
                         </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
@@ -78,15 +54,39 @@ const Skills = () => {
                         </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <a href="https://github.com/Shaikohn" target="_blank" rel="noopener noreferrer">
-                            <img alt="Github" src={GitHub} className='w-20 mx-auto' />
-                            <p className='my-4'>GITHUB</p>
+                        <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
+                            <img alt="Node" src={Express} className='w-20 mx-auto' />
+                            <p className='my-4'>EXPRESS JS</p>
+                        </a>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <a href="https://redux.js.org/" target="_blank" rel="noopener noreferrer">
+                            <img alt="Redux" src={Redux} className='w-20 mx-auto' />
+                            <p className='my-4'>REDUX</p>
+                        </a>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noopener noreferrer">
+                            <img alt="HTML" src={HTML} className='w-20 mx-auto' />
+                            <p className='my-4'>HTML</p>
+                        </a>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
+                            <img alt="CSS" src={CSS} className='w-20 mx-auto' />
+                            <p className='my-4'>CSS</p>
                         </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
                             <img alt="Bootstrap" src={Bootstrap} className='w-20 mx-auto' />
                             <p className='my-4'>BOOTSTRAP</p>
+                        </a>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <a href="https://github.com/Shaikohn" target="_blank" rel="noopener noreferrer">
+                            <img alt="Github" src={GitHub} className='w-20 mx-auto' />
+                            <p className='my-4'>GITHUB</p>
                         </a>
                     </div>
                 </div>

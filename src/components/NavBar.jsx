@@ -72,13 +72,13 @@ const NavBar = () => {
                     </li>
                     <li className="w-[160px] h-[60px] flex justify-between items-center text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
                         <a className="flex justify-between items-center w-full"
-                        href="https://drive.google.com/file/d/1pHpDcQWUEF8tKomoMEV7ck7X986ICu2e/view?usp=share_link" target="_blank" rel="noreferrer">
+                        href="https://drive.google.com/file/d/1s6dC25kVEiORUwSLpjW7XkbH_7E_bylB/view" target="_blank" rel="noreferrer">
                         Resume (English) <BsFillPersonLinesFill size={30} />
                         </a>
                     </li> 
                     <li className="w-[160px] h-[60px] flex justify-between items-center text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
                         <a className="flex justify-between items-center w-full"
-                        href="https://drive.google.com/file/d/1ZcvMxNOsYfjgmSbDC1_xgHD3o4zFWoA-/view?usp=share_link" target="_blank" rel="noreferrer">
+                        href="https://drive.google.com/file/d/1ZzhDo-zEC2gme1xDYNcMtFMfs8GoucDo/view" target="_blank" rel="noreferrer">
                         Resume (Spanish) <BsFillPersonLinesFill size={30} />
                         </a>
                     </li> 
