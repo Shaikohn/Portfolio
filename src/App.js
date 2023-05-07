@@ -1,21 +1,13 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Home from "./components/Home";
+import { Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-
+import NavBarEspañol from "./español/NavBar"
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-    </div>
+    <Routes>
+      <Route exact path="/" element={<NavBar />} />
+      <Route exact path="/español" element={<NavBarEspañol />} />
+    </Routes>
   );
 }
 
