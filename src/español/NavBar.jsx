@@ -86,13 +86,13 @@ const NavBarEspañol = () => {
                     </li>
                     <li className="w-[160px] h-[60px] flex justify-between items-center text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
                         <a className="flex justify-between items-center w-full"
-                        href="https://drive.google.com/file/d/1s6dC25kVEiORUwSLpjW7XkbH_7E_bylB/view" target="_blank" rel="noreferrer">
+                        href="https://drive.google.com/file/d/1gXJd1fKQKxfcdiUhD4d1jUeUEti1DLJ2/view" target="_blank" rel="noreferrer">
                         CV (Inglés) <BsFillPersonLinesFill size={30} />
                         </a>
                     </li> 
                     <li className="w-[160px] h-[60px] flex justify-between items-center text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
                         <a className="flex justify-between items-center w-full"
-                        href="https://drive.google.com/file/d/1ZzhDo-zEC2gme1xDYNcMtFMfs8GoucDo/view" target="_blank" rel="noreferrer">
+                        href="https://drive.google.com/file/d/1-KNaCcq7YeWXmtx_7vxLKjaZJj7YpzMM/view" target="_blank" rel="noreferrer">
                         CV (Español) <BsFillPersonLinesFill size={30} />
                         </a>
                     </li> 
