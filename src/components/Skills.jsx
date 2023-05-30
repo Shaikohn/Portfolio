@@ -55,7 +55,7 @@ const Skills = () => {
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
-                            <img alt="Node" src={Express} className='w-20 mx-auto' />
+                            <img alt="Express" src={Express} className='w-20 mx-auto' />
                             <p className='my-4'>EXPRESS JS</p>
                         </a>
                     </div>

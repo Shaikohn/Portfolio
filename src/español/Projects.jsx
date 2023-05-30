@@ -7,6 +7,18 @@ import Ztream from '../assets/projects/Ztream.png'
 import Cuevanix from '../assets/projects/Cuevanix.jpg'
 import Preguntate from '../assets/projects/Preguntate.png'
 
+import HTML from '../assets/html.png';
+import CSS from '../assets/css.png';
+import JavaScript from '../assets/javascript.png';
+import ReactImg from '../assets/react.png';
+import Node from '../assets/node.png';
+import GitHub from '../assets/github.png';
+import Mongo from '../assets/mongo.png'; 
+import Redux from '../assets/Redux.png';
+import postgres from '../assets/postgres.png';
+import Bootstrap from '../assets/Bootstrap.png';
+import Express from '../assets/Express.png';
+
 const ProjectsEspañol = () => {
     return (
         <div name="projects" className='w-full text-gray-3000 bg-[#0a192f] h-full'>
@@ -25,7 +37,14 @@ const ProjectsEspañol = () => {
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 Preguntate <br></br> (Freelance)
                             </span>
-                            <div className='pt-8 text-center'>
+                            <div className='flex mt-5'>
+                                <img alt="React" src={ReactImg} className='w-10 mx-auto' />
+                                <img alt="Redux" src={Redux} className='w-10 mx-auto' />
+                                <img alt="Node" src={Node} className='w-10 mx-auto' />
+                                <img alt="Express" src={Express} className='w-10 mx-auto' />
+                                <img alt="MongoDB" src={Mongo} className='w-10 mx-auto' />
+                            </div>
+                            <div className='pt-5 text-center'>
                                 <a href='https://preguntate.net/' target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Ir a la página</button>
                                 </a>
@@ -40,7 +59,14 @@ const ProjectsEspañol = () => {
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 Feetsies <br></br> (Proyecto grupal académico)
                             </span>
-                            <div className='pt-8 text-center'>
+                            <div className='flex mt-2'>
+                                <img alt="React" src={ReactImg} className='w-10 mx-auto' />
+                                <img alt="Redux" src={Redux} className='w-10 mx-auto' />
+                                <img alt="Node" src={Node} className='w-10 mx-auto' />
+                                <img alt="Express" src={Express} className='w-10 mx-auto' />
+                                <img alt="Postgres" src={postgres} className='w-10 mx-auto' />
+                            </div>
+                            <div className='pt-5 text-center'>
                                 <a href='https://feetsies.vercel.app/' target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
@@ -58,7 +84,14 @@ const ProjectsEspañol = () => {
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 Ztreamgames (Proyecto grupal académico)
                             </span>
-                            <div className='pt-8 text-center'>
+                            <div className='flex mt-5'>
+                                <img alt="React" src={ReactImg} className='w-10 mx-auto' />
+                                <img alt="Redux" src={Redux} className='w-10 mx-auto' />
+                                <img alt="Node" src={Node} className='w-10 mx-auto' />
+                                <img alt="Express" src={Express} className='w-10 mx-auto' />
+                                <img alt="MongoDB" src={Mongo} className='w-10 mx-auto' />
+                            </div>
+                            <div className='pt-5 text-center'>
                                 <a href='https://ztreamgames.vercel.app/' target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
@@ -76,7 +109,14 @@ const ProjectsEspañol = () => {
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 Cuevanix <br></br> (Proyecto personal)
                             </span>
-                            <div className='pt-8 text-center'>
+                            <div className='flex mt-5'>
+                                <img alt="React" src={ReactImg} className='w-10 mx-auto' />
+                                <img alt="Redux" src={Redux} className='w-10 mx-auto' />
+                                <img alt="Node" src={Node} className='w-10 mx-auto' />
+                                <img alt="Express" src={Express} className='w-10 mx-auto' />
+                                <img alt="MongoDB" src={Mongo} className='w-10 mx-auto' />
+                            </div>
+                            <div className='pt-5 text-center'>
                                 <a href='https://cuevanix-shaikohn.vercel.app/' target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
@@ -94,7 +134,14 @@ const ProjectsEspañol = () => {
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 Dogs App <br></br> (Proyecto grupal académico)
                             </span>
-                            <div className='pt-8 text-center'>
+                            <div className='flex mt-2'>
+                                <img alt="React" src={ReactImg} className='w-10 mx-auto' />
+                                <img alt="Redux" src={Redux} className='w-10 mx-auto' />
+                                <img alt="Node" src={Node} className='w-10 mx-auto' />
+                                <img alt="Express" src={Express} className='w-10 mx-auto' />
+                                <img alt="Postgres" src={postgres} className='w-10 mx-auto' />
+                            </div>
+                            <div className='pt-5 text-center'>
                                 <a href='https://dogs-app-shaikohn.vercel.app/' target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
@@ -112,7 +159,8 @@ const ProjectsEspañol = () => {
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 Este portafolio
                             </span>
-                            <div className='pt-8 text-center'>
+                            <img alt="React" src={ReactImg} className='w-10 mx-auto' />
+                            <div className='pt-5 text-center'>
                                 <a href='https://github.com/Shaikohn/Portfolio' target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Código</button>
                                 </a>
@@ -127,7 +175,11 @@ const ProjectsEspañol = () => {
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 Tourism App (HTML) <br></br> (Proyecto grupal académico)
                             </span>
-                            <div className='pt-8 text-center'>
+                            <div className='flex mt-2'>
+                                <img alt="HTML" src={HTML} className='w-10 mx-auto' />
+                                <img alt="CSS" src={CSS} className='w-10 mx-auto' />
+                            </div>
+                            <div className='pt-5 text-center'>
                                 <a href='https://tourism-app-kohn-giacobbe.vercel.app/index.html' target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
