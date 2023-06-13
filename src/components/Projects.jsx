@@ -6,6 +6,7 @@ import Portfolio from '../assets/projects/Portfolio.png'
 import Ztream from '../assets/projects/Ztream.png'
 import Cuevanix from '../assets/projects/Cuevanix.jpg'
 import Preguntate from '../assets/projects/Preguntate.png'
+import DogsApp from '../assets/projects/DogsApp.png'
 
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
@@ -127,7 +128,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* Grid Item Dog App */}
-                    <div style={{backgroundImage: `url(${DogApp})`}}
+                    <div style={{backgroundImage: `url(${DogsApp})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div text-center'>
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
