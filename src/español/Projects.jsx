@@ -6,6 +6,7 @@ import Portfolio from '../assets/projects/Portfolio.png'
 import Ztream from '../assets/projects/Ztream.png'
 import Cuevanix from '../assets/projects/Cuevanix.jpg'
 import Preguntate from '../assets/projects/Preguntate.png'
+import BAHelitours from '../assets/projects/BAHelitours.png'
 
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
@@ -29,6 +30,26 @@ const ProjectsEspañol = () => {
                 </div>
                 {/* Container */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                    {/* Grid Item BA Helitours */}
+                    <div style={{backgroundImage: `url(${BAHelitours})`}}
+                    className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div text-center'>
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                BA Helitours <br></br> (Freelance)
+                            </span>
+                            <div className='flex mt-5'>
+                                <img alt="HTML" src={HTML} className='w-10 mx-auto' />
+                                <img alt="JavaScript" src={JavaScript} className='w-10 mx-auto' />
+                                <img alt="CSS" src={CSS} className='w-10 mx-auto' />
+                            </div>
+                            <div className='pt-5 text-center'>
+                                <a href='https://preguntate.net/' target="_blank" rel="noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Ir a la página</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     {/* Grid Item Preguntate */}
                     <div style={{backgroundImage: `url(${Preguntate})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div text-center'>

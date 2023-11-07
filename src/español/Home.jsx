@@ -10,7 +10,7 @@ const HomeEspañol = () => {
                 <p className='text-pink-600'>Hola, me llamo</p>
                 <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Shai Kohn</h1>
                 <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>Soy un Desarrollador Web Full Stack</h2>
-                <p className='text-[#8892b0] py-4 max-w-[700px]'>Especializado en crear páginas usando frameworks de JavaScript</p>
+                <p className='text-[#8892b0] py-4 max-w-[700px]'>Especializado en crear páginas utilizando MERN y otras tecnologías</p>
                 <div>
                     <Link to="projects" smooth={true}  duration={500}>
                     <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>View Projects 
