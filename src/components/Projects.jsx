@@ -1,6 +1,6 @@
 import ztreamgames from  '../assets/projects/Ztream.png'
 import cuevanix from '../assets/projects/Cuevanix.png';
-import deltabet from '../assets/projects/DeltaBet.png';
+import deltabet from '../assets/projects/Deltabet.png';
 import pokemon from '../assets/projects/Pokemon.png';
 import preguntate from '../assets/projects/Preguntate.png';
 import feetsies from '../assets/projects/Feetsies.png';
