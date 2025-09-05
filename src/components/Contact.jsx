@@ -36,6 +36,26 @@ function Contact({language}) {
             <div className="max-w-3xl mx-auto text-center">
                 <h2 className="text-3xl font-bold mb-4">{language === "spanish" ? "Contacto" : "Contact"}</h2>
                 <p className="text-gray-600 mb-10">{language === "spanish" ? "¿Querés trabajar conmigo o simplemente saludar? Escribime desde el formulario o conectemos en redes." : "Want to work with me or just say hello? Write me using the form below or let's connect online."}</p>
+                <div className="mb-8 flex items-center justify-center gap-3 flex-wrap">
+                    <a
+                        href="https://drive.google.com/file/d/1WDvFGgb6UGFvYcK_rYc5RsY2N_hoqHvl/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium hover:bg-gray-50 transition"
+                        aria-label="Open English CV"
+                    >
+                        📄 {language === "spanish" ? "Ver CV (Inglés)" : "View CV (English)"}
+                    </a>
+                    <a
+                        href="https://drive.google.com/file/d/1_n2Qi630pOW_OcQka3VZpdkJuNlZhxki/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium hover:bg-gray-50 transition"
+                        aria-label="Open Spanish CV"
+                    >
+                        📄 {language === "spanish" ? "Ver CV (Español)" : "View CV (Spanish)"}
+                    </a>
+                </div>
                 <form 
                     action="https://api.web3forms.com/submit"
                     method="POST"
