@@ -6,10 +6,10 @@ import preguntate from '../assets/projects/Preguntate.png';
 import feetsies from '../assets/projects/Feetsies.png';
 import pawesomedogs from '../assets/projects/PawesomeDogs.png';
 
-function Projects() {
+function Projects({language}) {
     return (
         <section id="projects" className="px-8 py-16 bg-white">
-            <h2 className="text-3xl font-semibold mb-8 text-center">Proyectos Destacados</h2>
+            <h2 className="text-3xl font-semibold mb-8 text-center"> {language === "spanish" ? "Proyectos Destacados" : "Main projects"} </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
                 <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
                     <img 
@@ -17,12 +17,31 @@ function Projects() {
                         alt="ZtreamGames" 
                         className="rounded mb-4 w-full h-56 object-cover" 
                     />
-                    <h3 className="text-xl font-bold mb-2">ZtreamGames</h3>
+                    <h3 className="text-xl font-bold mb-2"> ZtreamGames (2022) – {language === "spanish" ? "Proyecto Grupal Académico" : "Academic Group Project"} </h3>
                     <p className="text-sm text-gray-600 mb-4">
-                        Proyecto realizado en equipo bajo metodología SCRUM durante mi formación en Soy Henry.
-                        Desarrollamos una tienda online de videojuegos con funcionalidades sociales y administrativas.
-                        Fui responsable de implementar funcionalidades clave tanto en el Front-End como en el Back-End,
-                        utilizando React, Node.js y Sequelize.
+                        {language === "spanish" ? <>
+                        Proyecto realizado en equipo bajo metodología SCRUM durante mi formación en Soy Henry. Desarrollamos una tienda online de videojuegos con funcionalidades sociales y administrativas.
+                        <br />
+                        👨‍💻 Mi rol:
+                        <br />
+                        - Implementé funcionalidades clave en el Front-End y el Back-End.
+                        <br />
+                        - Participé en la integración de sistema de usuarios, catálogo de productos y panel de administración.
+                        <br />
+                        - Colaboré en la optimización de consultas y manejo de base de datos.
+                        </> : 
+                        <>
+                        Team project developed under the SCRUM methodology during my training at Soy Henry. We built an online video game store with social and administrative features.
+                        <br />
+                        👨‍💻 My role:
+                        <br />
+                        - Implemented key functionalities in both Front-End and Back-End.
+                        <br />
+                        - Contributed to the integration of the user system, product catalog, and admin panel.
+                        <br />
+                        - Collaborated in optimizing queries and database management.
+                        </>
+                        }
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4 text-gray-700 text-sm">
                         <i className="devicon-react-original colored text-xl"></i> React
@@ -33,7 +52,7 @@ function Projects() {
                     </div>
                     <a href="https://github.com/Shaikohn/Ztreamgames" target="_blank" rel="noopener noreferrer" className="transition">
                         <button className="mt-3 px-4 py-2 rounded-lg bg-blue-100 text-blue-700 font-medium shadow-sm hover:bg-blue-200 hover:shadow-md transition duration-300 cursor-pointer">
-                            Ver en GitHub
+                            {language === "spanish" ? "Ver en GitHub" : "See on GitHub"}
                         </button>
                     </a>
                 </div>
@@ -43,11 +62,39 @@ function Projects() {
                         alt="Cuevanix" 
                         className="rounded mb-4 w-full h-56 object-cover" 
                     />
-                    <h3 className="text-xl font-bold mb-2">Cuevanix</h3>
+                    <h3 className="text-xl font-bold mb-2">Cuevanix (2023) – {language === "spanish" ? "Proyecto Personal" : "Personal Project"}</h3>
                     <p className="text-sm text-gray-600 mb-4">
-                        Proyecto personal full stack de un e-commerce de películas, con funcionalidades para compra,
-                        visualización de trailers, consultas, gestión de usuarios, roles y administración avanzada.
-                        Desarrollado íntegramente con React, Node.js y MongoDB.
+                        {language === "spanish" ? <>
+                        Proyecto full stack de un e-commerce de películas, desarrollado de manera individual. Incluye funcionalidades de compra, visualización de trailers, consultas, gestión de usuarios, roles y un panel de administración avanzado.
+                        <br />
+                        ✨ Features principales:
+                        <br />
+                        - Integración con Stripe para pagos simulados.
+                        <br />
+                        - Sistema de usuarios, autenticación y roles (admin/user).
+                        <br />
+                        - Funcionalidad de catálogo con búsqueda, filtros y ordenamiento.
+                        <br />
+                        - Sección de trailers e información detallada de cada película.
+                        <br />
+                        - Módulo de inquiries y comentarios de usuarios.
+                        </> : 
+                        <>
+                        Full stack project of a movie e-commerce platform, developed individually. It includes functionalities for purchases, trailer viewing, inquiries, user management, roles, and an advanced admin panel.
+                        <br />
+                        ✨ Main features:
+                        <br />
+                        - Stripe integration for simulated payments.
+                        <br />
+                        - User system, authentication, and role management (admin/user).
+                        <br />
+                        - Catalog functionality with search, filters, and sorting.
+                        <br />
+                        - Trailer section with detailed information for each movie.
+                        <br />
+                        - Inquiries and user comments module.
+                        </>
+                        }
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4 text-gray-700 text-sm">
                         <i className="devicon-react-original colored text-xl"></i> React
@@ -57,7 +104,7 @@ function Projects() {
                     </div>
                     <a href="https://github.com/Shaikohn/Cuevanix" target="_blank" rel="noopener noreferrer" className="transition">
                         <button className="mt-3 px-4 py-2 rounded-lg bg-blue-100 text-blue-700 font-medium shadow-sm hover:bg-blue-200 hover:shadow-md transition duration-300 cursor-pointer">
-                            Ver en GitHub
+                            {language === "spanish" ? "Ver en GitHub" : "See on GitHub"}
                         </button>
                     </a>
                 </div>
@@ -67,11 +114,34 @@ function Projects() {
                         alt="DeltaBet" 
                         className="rounded mb-4 w-full h-56 object-cover" 
                     />
-                    <h3 className="text-xl font-bold mb-2">La "Trilogía" de DeltaBet</h3>
+                    <h3 className="text-xl font-bold mb-2">DeltaBet (2024–2025) – {language === "spanish" ? "Proyectos Freelance" : "Freelance Projects"} </h3>
                     <p className="text-sm text-gray-600 mb-4">
-                        Desarrollé tres juegos multijugador de casino para una plataforma de entretenimiento.
-                        Incluyen desafíos de tragamonedas, ruleta y dinámicas entre streamer y chat.
-                        Cuentan con lógica de apuestas, balance, sistema de idiomas y diseño responsive.
+                        {language === "spanish" ? <>
+                        Desarrollé tres juegos multijugador de casino (Magic Island, God’s Roulette y VSChat) para una plataforma de entretenimiento en streaming. Los proyectos combinaron dinámicas en tiempo real entre streamer y chat, lógica de apuestas y balance, diseño responsive y soporte multilenguaje.
+                        <br />
+                        ✨ Features principales:
+                        <br />
+                        - Lógica de apuestas y balance de jugadores en tiempo real.
+                        <br />
+                        - Soporte multilenguaje (inglés/español).
+                        <br />
+                        - Diseño responsive optimizado para desktop y mobile.
+                        <br />
+                        - Integración de eventos dinámicos y rondas rápidas para mantener el ritmo de juego.
+                        </> : 
+                        <>
+                        I developed three multiplayer casino games (Magic Island, God’s Roulette, and VSChat) for a streaming entertainment platform. These projects combined real-time interactions between streamer and chat, betting and balance logic, responsive design, and multilingual support.
+                        ✨ Main features:
+                        <br />
+                        - Real-time betting and player balance logic.
+                        <br />
+                        - Multilingual support (English/Spanish).
+                        <br />
+                        - Responsive design optimized for desktop and mobile.
+                        <br />
+                        - Integration of dynamic events and fast rounds to keep gameplay engaging.
+                        </>
+                        }
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4 text-gray-700 text-sm">
                         <i className="devicon-react-original colored text-xl"></i> React
@@ -82,23 +152,23 @@ function Projects() {
                     <div className="flex space-x-4">
                         <a href="https://magicisland.app/" target="_blank" rel="noopener noreferrer" className="transition">
                             <button className="mt-3 px-4 py-2 rounded-lg bg-blue-100 text-blue-700 font-medium shadow-sm hover:bg-blue-200 hover:shadow-md transition duration-300 cursor-pointer">
-                                Ir a Magic Island
+                                {language === "spanish" ? "Ir a Magic Island" : "Go to Magic Island"}
                             </button>
                         </a>
                         <a href="https://godsroulette.app/" target="_blank" rel="noopener noreferrer" className="transition">
                             <button className="mt-3 px-4 py-2 rounded-lg bg-blue-100 text-blue-700 font-medium shadow-sm hover:bg-blue-200 hover:shadow-md transition duration-300 cursor-pointer">
-                                Ir a God's Roulette
+                                {language === "spanish" ? "Ir a God's Roulette" : "Go to God's Roulette"}
                             </button>
                         </a>
                         <a href="https://vschat.app/" target="_blank" rel="noopener noreferrer" className="transition">
                             <button className="mt-3 px-4 py-2 rounded-lg bg-blue-100 text-blue-700 font-medium shadow-sm hover:bg-blue-200 hover:shadow-md transition duration-300 cursor-pointer">
-                                Ir a VS.Chat
+                                {language === "spanish" ? "Ir a VS.Chat" : "Go to VS.Chat"}
                             </button>
                         </a>
                     </div>
                 </div>
             </div>
-            <h3 className="text-2xl font-semibold mt-20 mb-6 text-center">Otros Proyectos</h3>
+            <h3 className="text-2xl font-semibold mt-20 mb-6 text-center">{language === "spanish" ? "Otros Proyectos" : "Others Projects"}</h3>
             <div className="hidden md:block overflow-x-auto">
                 <div className="flex gap-6 w-max px-2 py-4">
                     {[  
@@ -151,7 +221,7 @@ function Projects() {
                             proj.link && 
                                 <a href={proj.link} target="_blank" rel="noopener noreferrer" className="transition">
                                     <button className="mt-3 px-4 py-2 rounded-lg bg-blue-100 text-blue-700 font-medium shadow-sm hover:bg-blue-200 hover:shadow-md transition duration-300 cursor-pointer">
-                                        Ver en GitHub
+                                        {language === "spanish" ? "Ver en GitHub" : "See on GitHub"}
                                     </button>
                                 </a>
                         }
@@ -200,7 +270,7 @@ function Projects() {
                         proj.link && 
                             <a href={proj.link} target="_blank" rel="noopener noreferrer" className="transition">
                                 <button className="mt-3 px-4 py-2 rounded-lg bg-blue-100 text-blue-700 font-medium shadow-sm hover:bg-blue-200 hover:shadow-md transition duration-300 cursor-pointer">
-                                    Ver en GitHub
+                                    {language === "spanish" ? "Ver en GitHub" : "See on GitHub"}
                                 </button>
                             </a>
                     }

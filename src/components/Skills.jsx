@@ -1,4 +1,4 @@
-function Skills() {
+function Skills({language}) {
     return (
         <section id="skills" className="px-6 py-12 mx-auto bg-gray-50">
             <h2 className="text-3xl font-bold mb-10 text-center">Hard Skills</h2>
@@ -43,7 +43,7 @@ function Skills() {
                     </ul>
                 </div>
                 <div>
-                    <h3 className="text-xl font-semibold mb-4 border-b pb-2">Bases de Datos</h3>
+                    <h3 className="text-xl font-semibold mb-4 border-b pb-2"> {language === "spanish" ? "Bases de Datos" : "Databases"} </h3>
                     <ul className="space-y-3">
                         {[
                             { name: 'PostgreSQL', icon: 'devicon-postgresql-plain' },
@@ -61,7 +61,7 @@ function Skills() {
                     </ul>
                 </div>
                 <div>
-                    <h3 className="text-xl font-semibold mb-4 border-b pb-2">Otras</h3>
+                    <h3 className="text-xl font-semibold mb-4 border-b pb-2"> {language === "spanish" ? "Herramientas" : "Tools"} </h3>
                     <ul className="space-y-3">
                         {[
                             { name: 'Git', icon: 'devicon-git-plain' },
@@ -82,7 +82,8 @@ function Skills() {
             </div>
             <h2 className="text-3xl font-bold mt-16 mb-8 text-center">Soft Skills</h2>
             <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-gray-800 text-center">
-                {[
+                {language === "spanish" ? (
+                    [
                     'Comunicación efectiva',
                     'Trabajo en equipo',
                     'Resolución de problemas',
@@ -98,7 +99,25 @@ function Skills() {
                     >
                         {skill}
                     </div>
-                ))}
+                ))
+                ) : [
+                    'Effective communication',
+                    'Teamwork',
+                    'Problem solving',
+                    'Analytical thinking',
+                    'Responsibility',
+                    'Autonomy',
+                    'Adaptability',
+                    'Continuous learning',
+                ].map(skill => (
+                    <div
+                        key={skill}
+                        className="bg-gray-100 p-4 rounded-xl shadow hover:shadow-md transform transition hover:scale-105"
+                    >
+                        {skill}
+                    </div>
+                ))
+            }
             </div>
         </section>
     )
