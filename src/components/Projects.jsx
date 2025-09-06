@@ -8,10 +8,10 @@ import pawesomedogs from '../assets/projects/PawesomeDogs.png';
 
 function Projects({language}) {
     return (
-        <section id="projects" className="px-8 py-16 bg-white">
-            <h2 className="text-3xl font-semibold mb-8 text-center"> {language === "spanish" ? "Proyectos Destacados" : "Main projects"} </h2>
+        <section id="projects" className="px-8 bg-white">
+            <h2 className="text-3xl font-semibold mb-8 mt-4 text-center"> {language === "spanish" ? "Proyectos Destacados" : "Main projects"} </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+                <div className="bg-gray-100 p-4 md:p-6 rounded-xl shadow hover:shadow-lg transition">
                     <img 
                         src={ztreamgames} 
                         alt="ZtreamGames" 
@@ -43,12 +43,27 @@ function Projects({language}) {
                         </>
                         }
                     </p>
-                    <div className="flex flex-wrap gap-2 mb-4 text-gray-700 text-sm">
-                        <i className="devicon-react-original colored text-xl"></i> React
-                        <i className="devicon-nodejs-plain colored text-xl ml-4"></i> Node.js
-                        <i className="devicon-sequelize-plain colored text-xl ml-4"></i> Sequelize
-                        <i className="devicon-tailwindcss-plain colored text-xl ml-4"></i> Tailwind
-                        <i className="devicon-mongodb-plain colored text-xl ml-4"></i> MongoDB
+                    <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-4 text-gray-700 text-sm">
+                        <span className="flex items-center gap-2">
+                            <i className="devicon-react-original colored text-xl"></i>
+                            React
+                        </span>
+                        <span className="flex items-center gap-2">
+                            <i className="devicon-nodejs-plain colored text-xl"></i>
+                            Node.js
+                        </span>
+                        <span className="flex items-center gap-2">
+                            <i className="devicon-sequelize-plain colored text-xl"></i>
+                            Sequelize
+                        </span>
+                        <span className="flex items-center gap-2">
+                            <i className="devicon-tailwindcss-plain colored text-xl"></i>
+                            Tailwind
+                        </span>
+                        <span className="flex items-center gap-2">
+                            <i className="devicon-mongodb-plain colored text-xl"></i>
+                            MongoDB
+                        </span>
                     </div>
                     <a href="https://github.com/Shaikohn/Ztreamgames" target="_blank" rel="noopener noreferrer" className="transition">
                         <button className="mt-3 px-4 py-2 rounded-lg bg-blue-100 text-blue-700 font-medium shadow-sm hover:bg-blue-200 hover:shadow-md transition duration-300 cursor-pointer">
@@ -56,7 +71,7 @@ function Projects({language}) {
                         </button>
                     </a>
                 </div>
-                <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+                <div className="bg-gray-100 p-4 md:p-6 rounded-xl shadow hover:shadow-lg transition">
                     <img 
                         src={cuevanix} 
                         alt="Cuevanix" 
@@ -96,11 +111,23 @@ function Projects({language}) {
                         </>
                         }
                     </p>
-                    <div className="flex flex-wrap gap-2 mb-4 text-gray-700 text-sm">
-                        <i className="devicon-react-original colored text-xl"></i> React
-                        <i className="devicon-nodejs-plain colored text-xl ml-4"></i> Node.js
-                        <i className="devicon-mongodb-plain colored text-xl ml-4"></i> MongoDB
-                        <i className="devicon-bootstrap-plain colored text-xl ml-4"></i> Bootstrap
+                    <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-4 text-gray-700 text-sm">
+                        <span className="flex items-center gap-2">
+                            <i className="devicon-react-original colored text-xl"></i>
+                            React
+                        </span>
+                        <span className="flex items-center gap-2">
+                            <i className="devicon-nodejs-plain colored text-xl"></i>
+                            Node.js
+                        </span>
+                        <span className="flex items-center gap-2">
+                            <i className="devicon-mongodb-plain colored text-xl"></i>
+                            MongoDB
+                        </span>
+                        <span className="flex items-center gap-2">
+                            <i className="devicon-bootstrap-plain colored text-xl"></i>
+                            Bootstrap
+                        </span>
                     </div>
                     <a href="https://github.com/Shaikohn/Cuevanix" target="_blank" rel="noopener noreferrer" className="transition">
                         <button className="mt-3 px-4 py-2 rounded-lg bg-blue-100 text-blue-700 font-medium shadow-sm hover:bg-blue-200 hover:shadow-md transition duration-300 cursor-pointer">
@@ -108,7 +135,7 @@ function Projects({language}) {
                         </button>
                     </a>
                 </div>
-                <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+                <div className="bg-gray-100 p-3 md:p-6 rounded-xl shadow hover:shadow-lg transition">
                     <img 
                         src={deltabet} 
                         alt="DeltaBet" 
@@ -143,11 +170,23 @@ function Projects({language}) {
                         </>
                         }
                     </p>
-                    <div className="flex flex-wrap gap-2 mb-4 text-gray-700 text-sm">
-                        <i className="devicon-react-original colored text-xl"></i> React
-                        <i className="devicon-css3-plain colored text-xl ml-4"></i> CSS
-                        <i className="devicon-html5-plain colored text-xl ml-4"></i> HTML
-                        <i className="devicon-javascript-plain colored text-xl ml-4"></i> JavaScript
+                    <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-4 text-gray-700 text-sm">
+                        <span className="flex items-center gap-2">
+                            <i className="devicon-react-original colored text-xl"></i>
+                            React
+                        </span>
+                        <span className="flex items-center gap-2">
+                            <i className="devicon-css3-plain colored text-xl"></i>
+                            CSS
+                        </span>
+                        <span className="flex items-center gap-2">
+                            <i className="devicon-html5-plain colored text-xl"></i>
+                            HTML
+                        </span>
+                        <span className="flex items-center gap-2">
+                            <i className="devicon-javascript-plain colored text-xl"></i>
+                            JavaScript
+                        </span>
                     </div>
                     <div className="flex space-x-4">
                         <a href="https://magicisland.app/" target="_blank" rel="noopener noreferrer" className="transition">
@@ -229,7 +268,7 @@ function Projects({language}) {
                 ))}
             </div>
         </div>
-        <div className="grid grid-cols-1 gap-4 md:hidden">
+        <div className="grid grid-cols-1 gap-4 mb-4 md:hidden">
             {[
                 {
                     title: 'PokeShai',
@@ -266,6 +305,15 @@ function Projects({language}) {
                         className="rounded mb-3 w-full h-32 object-cover" 
                     />
                     <h4 className="font-bold text-lg mb-2">{proj.title}</h4>
+                    <div className="flex flex-wrap gap-2 text-sm mb-3 text-gray-700 justify-center md:justify-start">
+                        {proj.techs.map((tech, idx) => (
+                            <div key={idx} className="flex items-center gap-1">
+                                <span className="flex items-center gap-2">
+                                    <i className={`${proj.iconos[idx]} text-xl`}></i> {tech}
+                                </span>
+                            </div>
+                        ))}
+                    </div>
                     {
                         proj.link && 
                             <a href={proj.link} target="_blank" rel="noopener noreferrer" className="transition">
